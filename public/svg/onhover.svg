@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450.23 805.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1" data-name="Capa 1">
+    <g>
+      <path class="cls-1" d="m450.23,805.17H0V0h450.23v805.17Zm-442.05-5.82h433.88V5.82H8.17v793.53Z"/>
+      <g>
+        <rect class="cls-1" x="102.63" y="69.56" width="244.96" height="23.78"/>
+        <rect class="cls-1" x="107.21" y="149.21" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="184.61" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="220" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="255.4" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="290.8" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="326.19" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="361.59" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="398.98" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="434.38" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="469.78" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="505.18" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="540.57" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="575.97" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="107.21" y="611.37" width="235.8" height="15.14"/>
+        <rect class="cls-1" x="102.8" y="681.12" width="244.76" height="55.62" rx="1.62" ry="1.62"/>
+      </g>
+    </g>
+  </g>
+</svg>
