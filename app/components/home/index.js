@@ -5,7 +5,7 @@ import Input from '../input'
 import { latinAmericanCountries, customerData, productData } from '@/app/dashboard/data';
 
 export default function Index() {
-  const [sections, setSections] = useState([1, 2]);
+  const [sections, setSections] = useState([1]);
   const [currency, setCurrency] = useState(null);
   const [price, setPrice] = useState(null);
 
