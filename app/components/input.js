@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 
-function input({ Data, valueHandler }) {
+function Input({ Data, valueHandler }) {
     const suggestions = Data;
     const [inputValue, setInputValue] = useState('');
     const [filteredSuggestions, setFilteredSuggestions] = useState([]);
@@ -55,4 +55,4 @@ function input({ Data, valueHandler }) {
     )
 }
 
-export default input
+export default Input

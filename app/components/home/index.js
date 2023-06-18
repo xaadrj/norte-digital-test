@@ -4,7 +4,7 @@ import Input from '../input'
 /** Data */
 import { latinAmericanCountries, customerData, productData } from '@/app/dashboard/data';
 
-export default function index() {
+export default function Index() {
   const [sections, setSections] = useState([1, 2]);
   const [currency, setCurrency] = useState(null);
   const [price, setPrice] = useState(null);
@@ -80,7 +80,7 @@ export default function index() {
           <div className='border-b-2 mt-10 w-full'>
             <h2 className='text-2xl pb-1'>Details</h2>
           </div>
-          <div className=' max-h-36 h-36'>
+          <div className='overflow-auto max-h-36 h-36'>
             {sections.map((value, index) => (
               <div key={index} className='flex mt-3 justify-start items-end xl:gap-8 gap-4'>
                 <div className='flex w-[30rem] justify-start items-start flex-col'>
