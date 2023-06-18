@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function index() {
     return (
         <div>
-            <div className="h-auto lg:h-screen relative lg:bg-[url('/images/hero.png')] bg-right bg-contain bg-no-repeat">
+            <div className="h-auto lg:h-96 xl:h-screen relative lg:bg-[url('/images/hero.png')] bg-right bg-contain bg-no-repeat">
                 <div className="mx-auto h-full py-12 px-4 sm:px-6 md:px-12 xl:container">
                     <div className="w-full flex justify-end text-xl lg:text-2xl items-center space-x-12">
                         <div className="flex justify-center items-center space-x-6">
@@ -15,7 +15,7 @@ export default function index() {
                         </button>
                     </div>
                     <div className="h-full py-12 lg:py-20 xl:py-0 flex-col lg:w-3/6 xl:w-2/6 2xl:w-4/12  flex justify-center items-start 2xl:pl-20">
-                        <h1 className="text-4xl lg:text-6xl">
+                        <h1 className="text-4xl lg:text-5xl xl:text-6xl">
                             Lorem Ipsum Design
                         </h1>
                         <p className="mt-6 text-base">
@@ -34,7 +34,7 @@ export default function index() {
             </div>
 
             <section id="content1">
-                <div className="mx-auto mt-20 w-full h-full py-12 px-4 sm:px-6 md:px-12 2xl:px-20 xl:container">
+                <div className="mx-auto mt-20 w-full h-full py-12 px-4 sm:px-6 md:px-12 2xl:px-32 xl:container">
                     <div className="flex justify-start flex-col items-start lg:w-3/6 xl:w-2/6 2xl:w-4/12">
                         <h1 className="text-4xl lg:text-6xl">
                             Content 1
@@ -82,7 +82,7 @@ export default function index() {
 
             <section id="content2">
                 <div className="h-auto mt-20 lg:h-screen relative bg-[url('/images/content2-bg.png')] w-full bg-center bg-cover bg-no-repeat">
-                    <div className="mx-auto  w-full h-full py-12 px-4 sm:px-6 md:px-12 lg:py-16 xl:py-20 2xl:px-20 xl:container">
+                    <div className="mx-auto  w-full h-full py-12 px-4 sm:px-6 md:px-12 lg:py-16 xl:py-20 2xl:px-32 xl:container">
                         <div className="w-full flex justify-end">
                             <div className="flex justify-end flex-col items-end lg:w-3/6 xl:w-2/6 2xl:w-4/12">
                                 <h1 className="text-4xl lg:text-6xl">
@@ -94,16 +94,16 @@ export default function index() {
                             </div>
                         </div>
                         <div className="mt-24 2xl:mt-12  gap-10 md:gap-4 xl:gap-10 flex justify-between items-center flex-col md:flex-row w-full">
-                            <div className="w-52 group">
+                            <div className="w-52 lg:w-56 group">
                                 <img className="w-full" src="/images/Asset 4-1.png" alt="hover images" />
 
                             </div>
-                            <div className="w-52 group">
+                            <div className="w-52 lg:w-56 group">
                                 <img className="w-full" src="/images/Asset 4.png" alt="hover images" />
 
                             </div>
 
-                            <div className="w-52 group">
+                            <div className="w-52 lg:w-56 group">
                                 <img className="w-full" src="/images/Asset 4-1.png" alt="hover images" />
 
                             </div>
